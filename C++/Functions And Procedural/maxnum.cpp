@@ -1,0 +1,15 @@
+// Function to find maximum of two numbers
+
+#include<iostream>
+using namespace std;
+int maximum(int a,int b){
+    if(a>b) return a;
+    else return b;
+}
+int main(){
+    int x,y;
+    cout<<"Enter two numbers: ";
+    cin>>x>>y;
+    cout<<"Maximum: "<<maximum(x,y);
+    return 0;
+}
